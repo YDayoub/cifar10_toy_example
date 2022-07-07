@@ -40,7 +40,7 @@ class Model(nn.Module):
 model = Model().to(device)
 criterion = nn.CrossEntropyLoss()
 optimizer = torch.optim.SGD(model.parameters(), lr=0.001, momentum=0.9)
-n_epochs = 16
+n_epochs = 1
 
 for epoch in range(n_epochs):
 
