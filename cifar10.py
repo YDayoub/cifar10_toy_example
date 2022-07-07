@@ -73,4 +73,4 @@ print('Accuracy of the network on the 10000 test images: %d %%' % (
 
 print('Saving model to TMP_OUTPUT_PATH')
 checkpoint_path = os.path.join(os.environ['TMP_OUTPUT_PATH'], './cifar_model.pth')
-torch.save(model.state_dict(), checkpoint_path)
+#torch.save(model.state_dict(), checkpoint_path)
